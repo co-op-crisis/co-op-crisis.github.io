@@ -1,0 +1,106 @@
+.brownstone {
+	--window-spacing: 25px;
+	
+	background: url("../img/bricks.png"), radial-gradient(#A19995, #8F5B39);
+	background-size: 200px;
+	padding: var(--window-spacing);
+	
+	transition: transform .5s;
+}
+
+.brownstone::before {
+	content: '';
+	display: block;
+	width: 600px;
+	height: 30px;
+	margin-top: -30px;
+	margin-left: -50px;
+	border-radius: 3px;
+	background-color: #b6b6b6;
+	border-top: 10px ridge #9f9f9fba;
+	border-bottom: 15px groove #817167bf;
+	box-shadow: 0px 5px 10px rgba(34,34,34,0.3);
+}
+
+.brownstone .window-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row;
+    justify-content: space-evenly;
+   
+    line-height: 30px;
+}
+
+.brownstone .window {
+    background: #22313D;
+    margin: var(--window-spacing);
+    color: white;
+    font-weight: bold;
+    font-size: 1.5em;
+    text-align: center;
+    flex: 1 0 auto;
+    height: 300px;
+	
+	border: 2px solid #22313D;
+	border-radius: 3px;
+	box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px,
+    inset rgba(123, 123, 123, 0.8) 0 0 0 5px,
+    inset rgba(162, 159, 159, 0.8) 0 0 0 1px,
+    inset rgba(159, 152, 143, 0.8) 0 0 0 10px,
+    inset rgba(167, 159, 151, 0.8) 0 0 0 11px,
+    inset rgba(217, 230, 235, 0.8) 0 0 0 16px,
+    inset rgba(177, 221, 213, 0.8) 0 0 0 17px,
+    inset rgba(245, 251, 250, 0.8) 0 0 0 21px,
+    inset rgba(212, 242, 244, 0.8) 0 0 0 22px;
+	transition: background 0.5s, box-shadow .5s;
+}
+
+.brownstone .window::before {
+    content: '︵‿︵‿୨♡୧‿︵‿︵';
+	font-size: 12px;
+	color: rgba(0, 0, 0, 0.2);
+    float: left;
+	margin-top: -10px;
+	height: 30px;
+	width: 100%;
+	background-color: rgba(167, 159, 151, 1);
+	border: 5px ridge rgba(123, 123, 123, 0.4);
+	border-radius: 100px 100px 0 0;
+}
+
+.brownstone .window::after {
+	content: '';
+	float: left;
+	margin-top: 264px;
+	height: 20px;
+	width: 100%;
+	background-color: rgba(167, 159, 151, 1);
+	border: 4px ridge rgba(123, 123, 123, 0.4);
+}
+
+.brownstone .window:hover {
+	background-color: #FFFED0;
+	
+	box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px,
+    inset rgba(123, 123, 123, 0.8) 0 0 0 5px,
+    inset rgba(162, 159, 159, 0.8) 0 0 0 1px,
+    inset rgba(159, 152, 143, 0.8) 0 0 0 10px,
+    inset rgba(167, 159, 151, 0.8) 0 0 0 11px,
+    inset rgba(217, 230, 235, 0.8) 0 0 0 16px,
+    inset rgba(177, 221, 213, 0.8) 0 0 0 17px,
+    inset rgba(245, 251, 250, 0.8) 0 0 0 21px,
+    inset rgba(212, 242, 244, 0.8) 0 0 0 22px,
+	
+	0px 9px 30px rgb(255 211 101 / 42%);
+}
+
+.brownstone .window-container:nth-child(2) .window:nth-child(1):hover {
+	background: url("../img/peter-blinds.gif"), #FFFED0;
+	background-size: 115px 303px;
+}
