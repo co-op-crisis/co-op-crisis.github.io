@@ -31,4 +31,46 @@ canvas {
 
 #header {
 	height: 65vh;
+	padding-top: 100px;
+	text-align: center;
+	color: white;
+	font-family: Helvetica;
+}
+
+#header h1 {
+	font-weight: bold;
+}
+
+#header button {
+	font-family: Helvetica;
+	color: white;
+	text-shadow: 2px 2px 4px #000000;
+	font-size: 24px;
+	background-color: rgba(0,0,0,0);
+	margin-top: 30px;
+	border: 2px solid rgba(0,0,0,0);
+	border-bottom: 2px dashed white;
+	transition: border .2s;
+}
+
+#header button:hover {
+	border: 2px solid white;
+}
+
+.info-box {
+	position: fixed;
+	background-color: #222222ab;
+	font-family: Helvetica;
+	color: white;
+	border-radius: 5px;
+	padding: 10px;
+	top: 50%;
+	right: 10%;
+	transform: translateY(-50%);
+	opacity: 0;
+	transition: opacity .3s;
+}
+
+.info-box h3 {
+	font-weight: bold;
 }
