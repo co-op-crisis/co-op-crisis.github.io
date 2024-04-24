@@ -74,3 +74,9 @@ canvas {
 .info-box h3 {
 	font-weight: bold;
 }
+
+#timeline {
+	position: fixed;
+	top: 0;
+	display: none;
+}

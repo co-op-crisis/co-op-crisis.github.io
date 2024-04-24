@@ -37,3 +37,9 @@ $(".window").hover(function() {
 }, function() {
 	$(".info-box").css("opacity", 0);
 });
+
+$(document).keydown(function(e) {
+     if (e.key === "Escape") { // escape key maps to keycode `27`
+        //
+    }
+});
