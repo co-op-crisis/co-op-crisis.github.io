@@ -19,6 +19,7 @@ $(".window").hover(function() {
 		case "prospect":
 			document.querySelector(".info-box").querySelector("h3").innerHTML = "Prospect Heights, Brooklyn";
 			document.querySelector(".info-box").querySelector("p").innerHTML = "Why I'll never buy a NYC co-op again";
+			document.querySelector(".overlay").querySelector("iframe").src = "stories/prospect.html";
 			break;
 		case "discr":
 			document.querySelector(".info-box").querySelector("h3").innerHTML = "Prospect Heights, Brooklyn";
@@ -40,6 +41,11 @@ $(".window").hover(function() {
 
 $(document).keydown(function(e) {
      if (e.key === "Escape") { // escape key maps to keycode `27`
-        //
+        closeOverlays();
     }
 });
+
+function closeOverlays() {
+	$("#timeline").fadeOut();
+	$(".overlay").fadeOut();
+}

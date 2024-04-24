@@ -1,0 +1,19 @@
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+div {
+  margin: auto;
+  top: 50%;
+  left: 50%;
+  border: 2px solid darkgray;
+  padding: 10px;
+  position: absolute;
+  transform: translate(-50%, -50%);
+
+  font-family: Helvetica;
+  color: white;
+  background-color: black;
+}
