@@ -45,6 +45,10 @@ $(document).keydown(function(e) {
     }
 });
 
+function triggerOverlay() {
+	$('.overlay').fadeIn();
+}
+
 function closeOverlays() {
 	$("#timeline").fadeOut();
 	$(".overlay").fadeOut();
