@@ -41,7 +41,7 @@
     padding-top: 100%;
 }
 
-.park .window:not(.shade):hover {
+.park .window[data-id]:not(.shade):hover {
 	background-color: #FFFED0;
 }
 
@@ -55,6 +55,6 @@
 	transition: height 0.5s;
 }
 
-.park .window.shade:hover::after {
+.park .window[data-id].shade:hover::after {
 	height: 10%;
 }
