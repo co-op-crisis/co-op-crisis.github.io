@@ -54,4 +54,5 @@ function triggerOverlay() {
 function closeOverlays() {
 	$("#timeline").fadeOut();
 	$(".overlay").fadeOut();
+	document.getElementById("bg-ambiance").play();
 }
