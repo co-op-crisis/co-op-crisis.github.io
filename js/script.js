@@ -30,6 +30,18 @@ $(".window").hover(function() {
 				document.querySelector(".info-box").querySelector("h3").innerHTML = "820 Fifth Ave";
 				document.querySelector(".info-box").querySelector("p").innerHTML = "test";
 				break;
+			case "uws":
+				document.querySelector(".overlay").querySelector("iframe").src = "https://lookerstudio.google.com/embed/reporting/86a88062-57f7-488d-87d0-9fa77f986de5/page/tcUyD";
+				break;
+			case "midtown":
+				document.querySelector(".overlay").querySelector("iframe").src = "https://lookerstudio.google.com/embed/reporting/d6bf6fb0-79b4-4d29-a520-98b1192a29c7/page/DcUyD";
+				break;
+			case "ues":
+				document.querySelector(".overlay").querySelector("iframe").src = "https://lookerstudio.google.com/embed/reporting/5dab9faf-a53d-42f6-a885-af8cba0b8471/page/HbUyD";
+				break;
+			case "downtown":
+				document.querySelector(".overlay").querySelector("iframe").src = "https://lookerstudio.google.com/embed/reporting/1bcee990-a28b-49b8-9b77-98546923811c/page/jZUyD";
+				break;
 			default:
 				document.querySelector(".info-box").querySelector("h3").innerHTML = "";
 				document.querySelector(".info-box").querySelector("p").innerHTML = "";
