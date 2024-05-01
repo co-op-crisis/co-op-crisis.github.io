@@ -38,15 +38,23 @@ $(".window").hover(function() {
 				document.querySelector(".overlay").querySelector("iframe").src = "https://www.youtube.com/embed/VU0dhwE6mbM?autoplay=1&rel=0";
 				break;
 			case "uws":
+				document.querySelector(".info-box").querySelector("h3").innerHTML = "Upper West Side";
+				document.querySelector(".info-box").querySelector("p").innerHTML = "Average price range alongside total sales";
 				document.querySelector(".overlay").querySelector("iframe").src = "https://lookerstudio.google.com/embed/reporting/86a88062-57f7-488d-87d0-9fa77f986de5/page/tcUyD";
 				break;
 			case "midtown":
+				document.querySelector(".info-box").querySelector("h3").innerHTML = "Midtown";
+				document.querySelector(".info-box").querySelector("p").innerHTML = "Average price range alongside total sales";
 				document.querySelector(".overlay").querySelector("iframe").src = "https://lookerstudio.google.com/embed/reporting/d6bf6fb0-79b4-4d29-a520-98b1192a29c7/page/DcUyD";
 				break;
 			case "ues":
+				document.querySelector(".info-box").querySelector("h3").innerHTML = "Upper East Side";
+				document.querySelector(".info-box").querySelector("p").innerHTML = "Average price range alongside total sales";
 				document.querySelector(".overlay").querySelector("iframe").src = "https://lookerstudio.google.com/embed/reporting/5dab9faf-a53d-42f6-a885-af8cba0b8471/page/HbUyD";
 				break;
 			case "downtown":
+				document.querySelector(".info-box").querySelector("h3").innerHTML = "Downtown";
+				document.querySelector(".info-box").querySelector("p").innerHTML = "Average price range alongside total sales";
 				document.querySelector(".overlay").querySelector("iframe").src = "https://lookerstudio.google.com/embed/reporting/1bcee990-a28b-49b8-9b77-98546923811c/page/jZUyD";
 				break;
 			default:

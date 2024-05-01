@@ -107,6 +107,11 @@
 	0px 9px 30px rgb(255 211 101 / 42%);
 }
 
+.brownstone .window[data-id]:not(:hover)::before,
+.brownstone .window[data-id]:not(:hover)::after {
+	animation: glow 1.5s infinite alternate;
+}
+
 .brownstone .window-container:nth-child(2) .window:nth-child(1):hover {
 	background: url("../img/peter-blinds.gif"), #FFFED0;
 	background-size: 115px 303px;

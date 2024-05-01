@@ -49,6 +49,7 @@ canvas {
 
 #header h1 {
 	font-weight: bold;
+	text-shadow: 2px 2px 4px #000000;
 }
 
 #header button {
@@ -66,6 +67,7 @@ canvas {
 #header button:hover {
 	border: 2px solid white;
 	cursor: pointer;
+	box-shadow: 2px 2px 4px #000000;
 }
 
 .info-box {
@@ -99,4 +101,13 @@ canvas {
 	height: 100%;
 	background-color: #222;
 	display: none;
+}
+
+@keyframes glow {
+	from {
+		box-shadow: 0 0 10px -10px #aef4afab;
+	}
+	to {
+		box-shadow: 0 0 10px 10px #aef4afab;
+	}
 }
