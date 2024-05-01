@@ -32,6 +32,11 @@ $(".window").hover(function() {
 				document.querySelector(".info-box").querySelector("h3").innerHTML = "820 Fifth Ave";
 				document.querySelector(".info-box").querySelector("p").innerHTML = "test";
 				break;
+			case "esther":
+				document.querySelector(".info-box").querySelector("h3").innerHTML = "It's a lot harder to be discriminatory if you have to be transparent";
+				document.querySelector(".info-box").querySelector("p").innerHTML = "An interview with Esther Chin";
+				document.querySelector(".overlay").querySelector("iframe").src = "https://www.youtube.com/embed/VU0dhwE6mbM?autoplay=1&rel=0";
+				break;
 			case "uws":
 				document.querySelector(".overlay").querySelector("iframe").src = "https://lookerstudio.google.com/embed/reporting/86a88062-57f7-488d-87d0-9fa77f986de5/page/tcUyD";
 				break;
