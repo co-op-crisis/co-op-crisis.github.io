@@ -1,3 +1,13 @@
+html {
+	scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	html {
+		scroll-behavior: auto;
+	}
+}
+
 body {
 	background: linear-gradient(to top, #d7dde6 40%, #97a8c0 80%);
 	cursor: url("../img/lady.svg"), auto;
@@ -55,6 +65,7 @@ canvas {
 
 #header button:hover {
 	border: 2px solid white;
+	cursor: pointer;
 }
 
 .info-box {

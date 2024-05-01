@@ -13,6 +13,8 @@ function switch3d() {
 	$(".brownstone").attr("style", "");
 }*/
 
+var main = true;
+
 $(".window").hover(function() {
 	let currID = this.getAttribute("data-id");
 	if(currID != null) {
@@ -61,10 +63,14 @@ $(document).keydown(function(e) {
 
 function triggerOverlay() {
 	$('.overlay').fadeIn();
+	main = false;
 }
 
 function closeOverlays() {
 	$("#timeline").fadeOut();
 	$(".overlay").fadeOut();
 	document.getElementById("bg-ambiance").play();
+	if(main)
+		location.href = "#";
+	main = true;
 }
