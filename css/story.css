@@ -17,3 +17,8 @@ div {
   color: white;
   background-color: black;
 }
+
+a {
+  color: white;
+  float: right;
+}

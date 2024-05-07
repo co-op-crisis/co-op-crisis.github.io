@@ -25,12 +25,14 @@ $(".window").hover(function() {
 				document.querySelector(".overlay").querySelector("iframe").src = "stories/prospect.html";
 				break;
 			case "discr":
-				document.querySelector(".info-box").querySelector("h3").innerHTML = "Prospect Heights, Brooklyn";
+				document.querySelector(".info-box").querySelector("h3").innerHTML = "Hudson Yards / Chelsea";
 				document.querySelector(".info-box").querySelector("p").innerHTML = "\"Not our kind\": How discrimination persists in New York co-ops";
+				document.querySelector(".overlay").querySelector("iframe").src = "stories/discr.html";
 				break;
-			case "820fifthave":
-				document.querySelector(".info-box").querySelector("h3").innerHTML = "820 Fifth Ave";
-				document.querySelector(".info-box").querySelector("p").innerHTML = "test";
+			case "secr":
+				document.querySelector(".info-box").querySelector("h3").innerHTML = "Queens / Brooklyn";
+				document.querySelector(".info-box").querySelector("p").innerHTML = "'All kinds of discrimination': inside the secretive world of New York housing co-ops";
+				document.querySelector(".overlay").querySelector("iframe").src = "stories/secr.html";
 				break;
 			case "esther":
 				document.querySelector(".info-box").querySelector("h3").innerHTML = "It's a lot harder to be discriminatory if you have to be transparent";
