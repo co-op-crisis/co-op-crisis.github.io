@@ -39,6 +39,11 @@ $(".window").hover(function() {
 				document.querySelector(".info-box").querySelector("p").innerHTML = "An interview with Esther Chin";
 				document.querySelector(".overlay").querySelector("iframe").src = "https://www.youtube.com/embed/VU0dhwE6mbM?autoplay=1&rel=0";
 				break;
+			case "comeback":
+				document.querySelector(".info-box").querySelector("h3").innerHTML = "Is co-op housing making a comeback?";
+				document.querySelector(".info-box").querySelector("p").innerHTML = "CBC News";
+				document.querySelector(".overlay").querySelector("iframe").src = "https://www.youtube.com/embed/yUdPdgHROoo?autoplay=1&rel=0";
+				break;
 			case "uws":
 				document.querySelector(".info-box").querySelector("h3").innerHTML = "Upper West Side";
 				document.querySelector(".info-box").querySelector("p").innerHTML = "Average price range alongside total sales";
