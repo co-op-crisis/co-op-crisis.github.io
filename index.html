@@ -15,17 +15,17 @@
 	<div id="header">
 		<h1>New York City &ndash; Co-Op Crisis</h1>
 		<button onclick="$('#timeline').fadeIn(); main = false;">History</button><br />
-		<button onclick="location.href='#interviews'">Interviews</button><br />
+		<button onclick="location.href='#intro'">Introduction</button><br />
 		<button onclick="location.href='#stats'">Statistics</button><br />
 		<button onclick="location.href='#stories'">Stories</button>
 	</div>
 	<!-- 432 PARK AVE -->
-	<div id="interviews" class="building-container">
+	<div id="intro" class="building-container">
 		<div class="building park">
 			<div class="window-container">
 				<div class="window"></div>
 				<div class="window"></div>
-				<div class="window" data-id="comeback"></div>
+				<div class="window" data-id="comeback" onclick="triggerOverlay()"></div>
 				<div class="window"></div>
 				<div class="window"></div>
 				<div class="window"></div>
@@ -80,27 +80,27 @@
 			</div>
 			<div class="window-container">
 				<div class="window"></div>
-				<div class="window shade"></div>
 				<div class="window"></div>
 				<div class="window"></div>
 				<div class="window"></div>
-				<div class="window"></div>
-			</div>
-			<div class="window-container">
-				<div class="window"></div>
-				<div class="window"></div>
-				<div class="window"></div>
-				<div class="window shade"></div>
 				<div class="window"></div>
 				<div class="window"></div>
 			</div>
 			<div class="window-container">
-				<div class="window shade"></div>
-				<div class="window shade"></div>
-				<div class="window shade"></div>
-				<div class="window shade"></div>
-				<div class="window"></div>
-				<div class="window shade"></div>
+				<div class="window shade" data-id="dr1" onclick="triggerOverlay()"></div>
+				<div class="window shade" data-id="dr2" onclick="triggerOverlay()"></div>
+				<div class="window shade" data-id="dr3" onclick="triggerOverlay()"></div>
+				<div class="window shade" data-id="dr4" onclick="triggerOverlay()"></div>
+				<div class="window shade" data-id="dr5" onclick="triggerOverlay()"></div>
+				<div class="window shade" data-id="dr6" onclick="triggerOverlay()"></div>
+			</div>
+			<div class="window-container">
+				<div class="window shade" data-id="dr7" onclick="triggerOverlay()"></div>
+				<div class="window shade" data-id="dr8" onclick="triggerOverlay()"></div>
+				<div class="window shade" data-id="dr9" onclick="triggerOverlay()"></div>
+				<div class="window shade" data-id="dr10" onclick="triggerOverlay()"></div>
+				<div class="window shade" data-id="dr11" onclick="triggerOverlay()"></div>
+				<div class="window shade" data-id="dr12" onclick="triggerOverlay()"></div>
 			</div>
 			<div class="window-container">
 				<div class="window"></div>

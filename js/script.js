@@ -44,6 +44,66 @@ $(".window").hover(function() {
 				document.querySelector(".info-box").querySelector("p").innerHTML = "CBC News";
 				document.querySelector(".overlay").querySelector("iframe").src = "https://www.youtube.com/embed/yUdPdgHROoo?autoplay=1&rel=0";
 				break;
+			case "dr1":
+				document.querySelector(".info-box").querySelector("h3").innerHTML = "Top Dozen Reasons for Co-op Board Rejections";
+				document.querySelector(".info-box").querySelector("p").innerHTML = "1. Financials";
+				document.querySelector(".overlay").querySelector("iframe").src = "stories/dr1.html";
+				break;
+			case "dr2":
+				document.querySelector(".info-box").querySelector("h3").innerHTML = "Top Dozen Reasons for Co-op Board Rejections";
+				document.querySelector(".info-box").querySelector("p").innerHTML = "2. Job History";
+				document.querySelector(".overlay").querySelector("iframe").src = "stories/dr2.html";
+				break;
+			case "dr3":
+				document.querySelector(".info-box").querySelector("h3").innerHTML = "Top Dozen Reasons for Co-op Board Rejections";
+				document.querySelector(".info-box").querySelector("p").innerHTML = "3. Bad Credit";
+				document.querySelector(".overlay").querySelector("iframe").src = "stories/dr3.html";
+				break;
+			case "dr4":
+				document.querySelector(".info-box").querySelector("h3").innerHTML = "Top Dozen Reasons for Co-op Board Rejections";
+				document.querySelector(".info-box").querySelector("p").innerHTML = "4. Pied-a-Terre";
+				document.querySelector(".overlay").querySelector("iframe").src = "stories/dr4.html";
+				break;
+			case "dr5":
+				document.querySelector(".info-box").querySelector("h3").innerHTML = "Top Dozen Reasons for Co-op Board Rejections";
+				document.querySelector(".info-box").querySelector("p").innerHTML = "5. Guarantor";
+				document.querySelector(".overlay").querySelector("iframe").src = "stories/dr5.html";
+				break;
+			case "dr6":
+				document.querySelector(".info-box").querySelector("h3").innerHTML = "Top Dozen Reasons for Co-op Board Rejections";
+				document.querySelector(".info-box").querySelector("p").innerHTML = "6. Life Style";
+				document.querySelector(".overlay").querySelector("iframe").src = "stories/dr6.html";
+				break;
+			case "dr7":
+				document.querySelector(".info-box").querySelector("h3").innerHTML = "Top Dozen Reasons for Co-op Board Rejections";
+				document.querySelector(".info-box").querySelector("p").innerHTML = "7. Home Work";
+				document.querySelector(".overlay").querySelector("iframe").src = "stories/dr7.html";
+				break;
+			case "dr8":
+				document.querySelector(".info-box").querySelector("h3").innerHTML = "Top Dozen Reasons for Co-op Board Rejections";
+				document.querySelector(".info-box").querySelector("p").innerHTML = "8. Failure to Fulfill Additional Requirements";
+				document.querySelector(".overlay").querySelector("iframe").src = "stories/dr8.html";
+				break;
+			case "dr9":
+				document.querySelector(".info-box").querySelector("h3").innerHTML = "Top Dozen Reasons for Co-op Board Rejections";
+				document.querySelector(".info-box").querySelector("p").innerHTML = "9. Low Purchase Prices";
+				document.querySelector(".overlay").querySelector("iframe").src = "stories/dr9.html";
+				break;
+			case "dr10":
+				document.querySelector(".info-box").querySelector("h3").innerHTML = "Top Dozen Reasons for Co-op Board Rejections";
+				document.querySelector(".info-box").querySelector("p").innerHTML = "10. Pets";
+				document.querySelector(".overlay").querySelector("iframe").src = "stories/dr10.html";
+				break;
+			case "dr11":
+				document.querySelector(".info-box").querySelector("h3").innerHTML = "Top Dozen Reasons for Co-op Board Rejections";
+				document.querySelector(".info-box").querySelector("p").innerHTML = "11. Noise";
+				document.querySelector(".overlay").querySelector("iframe").src = "stories/dr11.html";
+				break;
+			case "dr12":
+				document.querySelector(".info-box").querySelector("h3").innerHTML = "Top Dozen Reasons for Co-op Board Rejections";
+				document.querySelector(".info-box").querySelector("p").innerHTML = "12. A Poor Interview";
+				document.querySelector(".overlay").querySelector("iframe").src = "stories/dr12.html";
+				break;
 			case "uws":
 				document.querySelector(".info-box").querySelector("h3").innerHTML = "Upper West Side";
 				document.querySelector(".info-box").querySelector("p").innerHTML = "Average price range alongside total sales";
