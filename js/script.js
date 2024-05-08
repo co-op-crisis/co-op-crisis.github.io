@@ -19,6 +19,11 @@ $(".window").hover(function() {
 	let currID = this.getAttribute("data-id");
 	if(currID != null) {
 		switch(currID) {
+			case "doc":
+				document.querySelector(".info-box").querySelector("h3").innerHTML = "Documentation";
+				document.querySelector(".info-box").querySelector("p").innerHTML = "";
+				document.querySelector(".overlay").querySelector("iframe").src = "stories/doc.html";
+				break;
 			case "prospect":
 				document.querySelector(".info-box").querySelector("h3").innerHTML = "Prospect Heights, Brooklyn";
 				document.querySelector(".info-box").querySelector("p").innerHTML = "Why I'll never buy a NYC co-op again";

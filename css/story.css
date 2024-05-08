@@ -22,3 +22,11 @@ a {
   color: white;
   float: right;
 }
+
+body.doc {
+  overflow-y: scroll;
+}
+
+.doc > div {
+  transform: translate(-50%, 0%);
+}
